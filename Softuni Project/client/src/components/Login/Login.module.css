@@ -1,0 +1,41 @@
+.form-container {
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #e2c0a3;
+    margin-top: 30px;
+    height: 240px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button[type="submit"] {
+    background-color: #ffae00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
